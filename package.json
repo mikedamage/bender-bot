@@ -5,9 +5,11 @@
   "author": "Mike Green <mike.is.green@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "bunyan": "^1.8.10",
     "compromise": "^10.6.1",
     "matrix-js-sdk": "^0.7.13",
-    "olm": "https://matrix.org/packages/npm/olm/olm-2.2.2.tgz"
+    "olm": "https://matrix.org/packages/npm/olm/olm-2.2.2.tgz",
+    "replify": "^1.2.0"
   },
   "devDependencies": {
     "bumped": "^0.10.4"
