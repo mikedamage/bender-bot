@@ -1,0 +1,17 @@
+{
+  "name": "bender-bot",
+  "description": "Extendable Matrix.org chatbot for meatbags",
+  "version": "0.1.0",
+  "author": "Mike Green <mike.is.green@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "compromise": "^10.6.1",
+    "matrix-js-sdk": "^0.7.13",
+    "olm": "https://matrix.org/packages/npm/olm/olm-2.2.2.tgz"
+  },
+  "devDependencies": {
+    "bumped": "^0.10.4"
+  },
+  "main": "lib/bender.js",
+  "scripts": {}
+}
