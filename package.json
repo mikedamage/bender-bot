@@ -12,7 +12,8 @@
     "replify": "^1.2.0"
   },
   "devDependencies": {
-    "bumped": "^0.10.4"
+    "bumped": "^0.10.4",
+    "repl-client": "^0.3.0"
   },
   "main": "lib/bender.js",
   "scripts": {}
