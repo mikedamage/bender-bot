@@ -18,5 +18,7 @@
     "repl-client": "^0.3.0"
   },
   "main": "lib/bender.js",
-  "scripts": {}
+  "scripts": {
+    "repl": "rc /tmp/repl/bender.sock"
+  }
 }
