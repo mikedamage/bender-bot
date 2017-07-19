@@ -1,9 +1,9 @@
 const Bender = require('./lib/bender');
 const AcceptInvitations = require('./lib/plugins/accept-invitations');
 const NormalizeMessages = require('./lib/plugins/normalize-messages');
-const { userId, accessToken, baseUrl } = require('./testaccount.json');
+const { userId, accessToken, baseUrl, deviceId } = require('./testaccount.json');
 
-const bender = new Bender({ userId, accessToken, baseUrl, repl: true, logging: { level: 'info' } });
+const bender = new Bender({ userId, accessToken, baseUrl, deviceId, repl: true, logging: { level: 'info' } });
 
 const acceptInvitations = new AcceptInvitations(bender);
 const normalizeMessages = new NormalizeMessages(bender);
