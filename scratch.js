@@ -4,7 +4,14 @@ const NormalizeMessages = require('./lib/plugins/normalize-messages');
 const Avatar = require('./lib/plugins/avatar');
 const { userId, accessToken, baseUrl, deviceId } = require('./testaccount.json');
 
-const bender = new Bender({ userId, accessToken, baseUrl, deviceId, repl: true, logging: { level: 'info' } });
+const bender = new Bender({
+  userId,
+  accessToken,
+  baseUrl,
+  deviceId,
+  repl: true,
+  logging: { level: 'info' },
+});
 
 const avatar = new Avatar(bender, { avatarFile: './avatar.jpg' });
 const acceptInvitations = new AcceptInvitations(bender);
