@@ -15,7 +15,11 @@
     "replify": "^1.2.0"
   },
   "devDependencies": {
+    "@epublishing/eslint-config-epublishing": "^0.1.6",
     "bumped": "^0.10.4",
+    "eslint": "^4.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-react": "^7.1.0",
     "jsdoc-to-markdown": "^3.0.0",
     "repl-client": "^0.3.0"
   },
