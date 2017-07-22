@@ -16,7 +16,9 @@
   },
   "devDependencies": {
     "@epublishing/eslint-config-epublishing": "^0.1.6",
-    "bumped": "^0.10.4",
+    "bumped": "^0.10.5",
+    "bumped-changelog": "^0.3.10",
+    "bumped-terminal": "^0.7.3",
     "eslint": "^4.3.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-react": "^7.1.0",

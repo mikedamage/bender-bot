@@ -1,0 +1,16 @@
+files:
+  - package.json
+  - package-lock.json
+plugins:
+  postrelease:
+    Generating CHANGELOG file:
+      plugin: bumped-changelog
+    Committing new version:
+      plugin: bumped-terminal
+      command: 'git add CHANGELOG.md package* && git commit -m "Version bump to v$newVersion"'
+    Publishing tag to Git hosts:
+      plugin: bumped-terminal
+      command: 'git tag v$newVersion && git push --tags'
+#    Publishing to NPM:
+#      plugin: bumped-terminal
+#      command: npm publish
