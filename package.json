@@ -28,6 +28,7 @@
   },
   "main": "lib/bender.js",
   "scripts": {
+    "jsdoc": "jsdoc2md ./lib/**/*.js > doc/api.md",
     "repl": "rc /tmp/repl/bender.sock",
     "test": "jest"
   }
