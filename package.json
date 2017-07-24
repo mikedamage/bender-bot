@@ -10,8 +10,10 @@
     "lodash": "^4.17.4",
     "matrix-js-sdk": "^0.7.13",
     "mime-types": "^2.1.15",
+    "node-fetch": "^1.7.1",
     "node-rules": "^3.1.0",
     "olm": "https://matrix.org/packages/npm/olm/olm-2.2.2.tgz",
+    "query-string": "^5.0.0",
     "replify": "^1.2.0"
   },
   "devDependencies": {
