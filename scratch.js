@@ -17,8 +17,6 @@ const avatar = new Avatar(bender, { avatarFile: './avatar.jpg' });
 const acceptInvitations = new AcceptInvitations(bender);
 const normalizeMessages = new NormalizeMessages(bender);
 
-bender.logger.info(acceptInvitations.rules);
-
 bender.use(avatar);
 bender.use(acceptInvitations);
 bender.use(normalizeMessages);
